@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "home-feed"
+rootProject.name = "Health_Log"
 include(":app")

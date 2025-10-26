@@ -3,12 +3,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.home_feed"
-    compileSdk = 36
+    namespace = "com.example.health_log"
+    compileSdk {
+        version = release(36)
+    }
 
     defaultConfig {
-        applicationId = "com.example.home_feed"
-        minSdk = 21
+        applicationId = "com.example.health_log"
+        minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -32,7 +34,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
